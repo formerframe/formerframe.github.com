@@ -1,0 +1,49 @@
+		body {
+			background: #EEE;
+			color: #b93939;
+			font-size: 16px;
+		}
+		p {
+			font-family: Georgia, serif;
+		}
+		h1 {
+			background: url('images/headline.gif') center top no-repeat;
+			font-family: Helvetica, Arial, sans-serif;
+			height:65px;
+		}
+		#container {
+			width: 540px;
+			margin: 40px  auto; 
+			background: url(images/logo.gif) center top no-repeat;
+		}
+		#header {
+			padding-top: 150px; /* avoid margin collapsing */
+		}
+		#description {
+			font-variant: small-caps;
+			text-align: center;
+			letter-spacing: .5em;
+			word-spacing: .6em;
+		}
+		#manifesto {
+			background: url('images/manifesto.gif') center bottom no-repeat;
+			padding-bottom: 35px;
+		}
+		#manifesto p {
+			font-family: 'Palatino Linotype', 'Times New Roman', serif;
+			font-style: italic;
+			text-align : center;
+		}
+		#footer {
+			margin-top: 40px;
+		}
+		#copyright{
+			font-size: 13px;
+			font-variant: small-caps;
+			text-align: center;
+			letter-spacing: 1em;
+			word-spacing: 1em;
+		}
+		.hidden{
+			display: none;
+		}
